@@ -2,14 +2,45 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+//        swaping of two number using third variable
+//        int a=38;
+//        int b=54;
+//        System.out.println("befor swaping:"+a+":"+b);
+//        int temp=a;
+//        a=b;
+//        b=temp;
+//        System.out.println("after swaping:"+a+":"+b);
+
+//        swaping using arithmetic opertor "+","-"
+//        int a=73;
+//        int b=36;
+//        System.out.println("befor swaping:"+a+":"+b);
+//        a=a+b;
+//        b=a-b;
+//        a=a-b;
+//        System.out.println("after swaping:"+a+":"+b);
+
+//        Using "*","/"
+//        int a=48;
+//        int b=90;
+//        System.out.println("befor swaping:"+a+":"+b);
+//        a=a*b;
+//        b=a/b;
+//        a=a/b;
+//        System.out.println("after swaping:"+a+":"+b);
+
+//        Swapping using "XOR-Opertor"
+        int a=78;
+        int b=12;
+        System.out.println("befor swaping:"+a+":"+b);
+        a=a^b;
+        b=a^b;
+        a=a^b;
+        System.out.println("after swaping:"+a+":"+b);
+
+
+
+
     }
 }
