@@ -69,13 +69,13 @@ public class Main {
         //8<8  false
 
         //2 table printing
-        int num;
-        System.out.println("enter number:");
-        Scanner sc= new Scanner(System.in);
-        num=sc.nextInt();
-            for (int i=1;i<11;i++){
-                System.out.println(num+ " * " + i +" = "+ (num*i));
-            }
+//        int num;
+//        System.out.println("enter number:");
+//        Scanner sc= new Scanner(System.in);
+//        num=sc.nextInt();
+//            for (int i=1;i<11;i++){
+//                System.out.println(num+ " * " + i +" = "+ (num*i));
+//            }
 
 //        Even odd number printing
 //        System.out.print("even = ");
