@@ -4,51 +4,59 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-//        int a;
-//        Scanner sc = new Scanner(System.in);
-//        System.out.println("enter a number to check prime or not:");
-//        a = sc.nextInt();
-//        int count = 0;
-//        int number = 0;
-//    for (int i=1;i<=a;i++){
-//        if (a%i==0){
-//            count++;
-//            number=i;
+//        int a=38,b=50,c=37;
+//        if (a > b) {
+//            if (a>c){
+//                System.out.println("number 'a' grater:"+a);
+//            }
+//            else {
+//                System.out.println("number 'c' greater:"+c);
+//            }
 //        }
-//    }
-//    if(count==2){
-//        System.out.println("this is prime number"+number);
-//    }
-//    else {
-//        System.out.println("this not prime");
-//    }
-        int sum=0;
-        for (int i = 1; i <= 100; i++) {
-            int count=0;
-            for (int j = 1; j <= i; j++) {
-                if (i % j == 0) {
-                    count++;
-                }
-            }
-            if(count==2){
-              sum+=i;
-            }
+//        else {
+//            if(b>c){
+//                System.out.println("number 'b' greater:"+b);
+//            }
+//            else {
+//                System.out.println("number 'c' greater:"+c);
+//            }
+//        }
+//        int marks;
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter your marks:");
+//        marks=sc.nextInt();
+//        if(marks>=35){
+//            if(marks>=75 && marks<=100){
+//                System.out.println(" pass give grade is 'A'");
+//            }
+//            else {
+//                System.out.println("pass and give grade 'B'");
+//            }
+//        }
+//        else {
+//            System.out.println("fail get grade is 'F'");
+//        }
+        int days=4;
+        switch (days){
+            case 1:
+                System.out.println("mon");
+                break;
+            case 2:
+                System.out.println("thr");
+                break;
+            case 3:
+                System.out.println("wen");
+                break;
+            case 4:
+                System.out.println("thu");
+                break;
+            case 5:
+                System.out.println("fri");
+                break;
+            case 6:
+                System.out.println("su");
+                break;
         }
-        System.out.println("sum is:"+sum);
-
-
-//        Printing 1 TO 100 prime number
-//        for (int i = 1; i <= 100; i++) {
-//            int count=0;
-//            for (int j = 1; j <= i; j++) {
-//                if (i % j == 0) {
-//                    count++;
-//                }
-//            }
-//            if(count==2){
-//                System.out.println("prime number are:"+i);
-//            }
-//        }
     }
         }
 
