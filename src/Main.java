@@ -2,79 +2,57 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-//    for(int i=1;i<=5;i++){
-//        for (int j=1;j<i;j++){
-//            System.out.print(" ");
-//        }
-//        for (int k=1;k<=5;k++){
-//            System.out.print("*");
-//        }
-//        for (int l=1;l<=(5-i)*2;l++){
-//            System.out.print(" ");
-//        }
-//        for (int h=1;h<=5;h++){
-//            System.out.print("*");
-//        }
-//        System.out.println();
-//    }
-//        for(int i=4;i>=1;i--){
-//            for (int j=1;j<i;j++){
-//                System.out.print(" ");
-//            }
-//            for (int k=1;k<=5;k++){
-//                System.out.print("*");
-//            }
-//            for (int l=1;l<=(5-i)*2;l++){
-//                System.out.print(" ");
-//            }
-//            for (int h=1;h<=5;h++){
-//                System.out.print("*");
-//            }
-//            System.out.println();
-//        }
-//        Output :
-// *****        *****
-// *****      *****
-//  *****    *****
-//   *****  *****
-//    **********
-//   *****  *****
-//  *****    *****
-// *****      *****
-//*****        *****
-
-//    int count=0;
-//        for(int i=1;i<=5;i++){
-//            for(int j=1;j<=i;j++){
-//                count++;
-//                System.out.print(count+" ");
-//            }
 //
-//            System.out.println();
-//        }
-
-//        for (int i=1;i<=5;i++){
-//            for (int j=i;j>=1;j--){
-//                System.out.print(j+" ");
-//            }
-//            System.out.println();
-//        }
-//        Output:
-//        1
-//        21
-//        321
-//        4321
-//        54321
-
-
-
-    sample s1=new sample();
-        System.out.println("collage ids1.id);
-
+//        sample t1=new sample();
+//    int fact=1;
+//    for (int i=1;i<=t1.id;i++){
+//        fact*=i;
+//    }
+//    System.out.println("fact is: "+fact);
+//
+//    sample t2=new sample();
+//    int rem;
+//    int sum=0;
+//    while(t2.id>0){
+//        rem=t2.id%10;
+//        sum+=rem;
+//        t2.id/=10;
+//    }
+//        System.out.println("Sum of digit is: "+sum);
+//
+//    sample t3=new sample();
+//    int num=0;
+//    int original=t3.id;
+//    while (t3.id>0){
+//        rem=t3.id%10;
+//        num=num*10+rem;//0*10+1=1  , 1*10+1=11
+//        t3.id/=10;
+//    }
+//        System.out.println(num);
+//    if(num==original){
+//        System.out.println("Number is pailndrom");
+//    }
+//    else{
+//        System.out.println("Not paindrom number");
+//    }
+//        sample s1=new sample();
+//        s1.show();
+//        s1.show();
+//        s1.show();
+//        s1.show();
+//
+//        s1.display();
+        System.out.println(10.0/4.0);
     }
 }
-class sample{
-    int id=38;
-}
+//class sample{
+//    int id=11;
+//    void show(){
+//        System.out.println("Hellooo");
+//    }
+//    void display(){
+//        System.out.println("Dispaly");
+//    }
+//}
 
 
