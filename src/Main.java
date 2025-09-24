@@ -68,12 +68,13 @@ public class Main {
 
 
 
+    sample s1=new sample();
+        System.out.println("collage ids1.id);
 
     }
-    class sample{
-        int id=38;
-    }
-
+}
+class sample{
+    int id=38;
 }
 
 
