@@ -65,6 +65,13 @@ public class Main {
 //        321
 //        4321
 //        54321
+
+
+
+
+    }
+    class sample{
+        int id=38;
     }
 
 }
