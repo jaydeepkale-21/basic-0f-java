@@ -1,36 +1,31 @@
-import java.util.*;
-public class Main {
-    public static void main(String[] args) {
-    techer t1=new techer();
-
-    t1.getvalue((byteyu)10);
-    }
-}
-//class student{
-//    String n;
-//    int a;
-//    long p;
-//    student(String name, int id, long pin){
-//        n=name;
-//        a=id;
-//        p=pin;
-//    }
-//    student(student s1){
-//        n=s1.n;
-//        a=s1.a;
-//        p=s1.p;
-//    }
-//    void show(){
-//        System.out.println("name: "+n+" id: "+a+" pin: "+p);
+//import java.util.*;
+//public class Main {
+//    public static void main(String[] args) {
+// s3 t1=new s3();
+// t1.s1();
+// t1.s2();
+// t1.s3();
 //    }
 //}
-
-//   -------------> Inhristance <------------------
-class techer{
-void getvalue(byte a){
-    System.out.println("print valua:"+a);
-}
-}
-
-
-
+//
+//class s1{
+//void s1(){
+//    int a=35;
+//    System.out.println("Class 1: "+a);
+//}
+//}
+//class s2 extends s1{
+//    void s2(){
+//        int b=36;
+//        System.out.println("Class 2: "+b);
+//    }
+//}
+//class s3 extends s2{
+//    void s3(){
+//        int c=35;
+//        System.out.println("Class 3: "+c);
+//    }
+//}
+//
+//
+//
