@@ -1,31 +1,33 @@
-//import java.util.*;
-//public class Main {
-//    public static void main(String[] args) {
-// s3 t1=new s3();
-// t1.s1();
-// t1.s2();
-// t1.s3();
+import java.util.*;
+public class Main {
+
+//    Bineary to decimal convertion
+//    public static void getdecimal(int n){
+//        int i=0;
+//        int decimal=0;
+//        while(n>0){
+//            int rev=n%10;
+//            decimal+=rev*(int)Math.pow(2,i);
+//            i++;
+//            n/=10;
+//        }
+//        System.out.println("decimal is: "+decimal);
+//
 //    }
-//}
-//
-//class s1{
-//void s1(){
-//    int a=35;
-//    System.out.println("Class 1: "+a);
-//}
-//}
-//class s2 extends s1{
-//    void s2(){
-//        int b=36;
-//        System.out.println("Class 2: "+b);
-//    }
-//}
-//class s3 extends s2{
-//    void s3(){
-//        int c=35;
-//        System.out.println("Class 3: "+c);
-//    }
-//}
-//
-//
-//
+
+//    Decimal to Bineary convertion
+    public static void getbinery(int n){
+        String decimal="";
+        while (n>0){
+//            int q=n/2;
+            int rem=n%2;
+            decimal=decimal+rem;
+            n=n/2;
+        }
+        System.out.println(decimal);
+    }
+    public static void main(String[] args) {
+        int n=2;
+        getbinery(n);
+
+    }}
