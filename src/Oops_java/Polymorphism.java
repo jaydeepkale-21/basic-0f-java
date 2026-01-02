@@ -3,7 +3,7 @@ package Oops_java;
 public class Polymorphism {
     public static void main(String args[]){
     person p1=new person();
-    p1.person();
+//    p1.person();
 //    p1.person();
     }
 }
