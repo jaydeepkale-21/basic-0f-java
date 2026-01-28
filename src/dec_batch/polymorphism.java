@@ -13,7 +13,7 @@ class person{
 }
 class bike{
     void run(){
-        System.out.println("ruuning");
+        System.out.println("running");
     }
 }
 class splender extends bike{
